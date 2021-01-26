@@ -1,0 +1,33 @@
+:root {
+    --dark: rgb(63, 62, 62);
+    --medium: rgb(138, 137, 137);
+    --light: white;
+}
+
+.text {
+    width: 90%;
+    background-color: var(--dark);
+    margin: 5%;
+    min-width: 350px;
+} 
+
+.project-images {
+    width: 90%;
+    
+}
+
+img {
+    width: 90%;
+    border: 5px solid var(--dark);
+    margin: 3% 0;
+    min-width: 300px;
+}
+
+
+.project {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    /* flex-wrap: wrap; */
+}

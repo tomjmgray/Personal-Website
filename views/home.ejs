@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include ('./partials/head')%>
+    <link rel="stylesheet" href="./public/css/home-style.css">
     <title>Tom Gray</title>
 </head>
 <body>
 
-    <header>
-       <nav>
-            <ul>
-                
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/resume">Resume</a></li>
-                <li><a href="/contact">Contact</a></li>
+    <%- include('./partials/header') %>
 
-            </ul>
-        </nav> 
-    </header>
-    
     <main>
-        <h1>Tom Gray</h1>
-        <h2>About Me</h2>
-        <p>Hello! My name is Tom Gray, and I am a Software Developer specializing in Full Stack Web Development.</p>
+        <div class="main">
+            <div class="text">
+                <h2>About Me</h2>
+                <p>Hello! My name is Tom Gray, and I am a Software Developer specializing in Full Stack Web Development.
+                    On this site, you can learn more about my projects, work experience, and vineyard, and can reach out to me for business inquiries.
+                </p>
+            </div>
+            <img alt="Profile Picture" id="profile-picture" src="https://media-exp1.licdn.com/dms/image/C4D03AQFAzwsvDrNVfQ/profile-displayphoto-shrink_200_200/0/1611076662035?e=1617235200&v=beta&t=bMTvirmCjbYa3odkS08fcIm07sdE5Eo68rcMXxUyRbs">
+        </div>
+       
+        
     </main>
+
+    <%- include('./partials/footer') %>
 
 </body>
 </html>
