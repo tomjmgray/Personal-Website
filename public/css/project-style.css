@@ -4,16 +4,16 @@
     --light: white;
 }
 
-.text {
+/* .text {
     width: 90%;
     background-color: var(--dark);
     margin: 5%;
     min-width: 350px;
-} 
+}  */
 
 .project-images {
-    width: 90%;
-    
+    width: 35%;
+    margin-left: 5%;
 }
 
 img {

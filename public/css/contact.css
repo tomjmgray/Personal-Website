@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h3 {
+    font-size: 3vh;
+}
+
+.contact {
+    width: 80%;
+    height: 60vh;
+    background-color: rgb(63, 62, 62);
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-flow: row wrap;
+}
+

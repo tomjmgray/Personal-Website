@@ -14,5 +14,14 @@ app.get('/projects', (req, res) => {
     res.render('projects');
 })
 
+app.get('/resume', (req, res) => {
+    res.render('resume')
+})
+
+app.get('/contact', (req, res) => {
+    res.render('contact')
+})
+
 app.set('view engine', 'ejs');
 app.listen(PORT, console.log(`Listening at ${PORT}`));
+
